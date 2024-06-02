@@ -1,0 +1,16 @@
+[package]
+name = "lemire-quickly-checking-wether-a-string-needs-escaping"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+
+[dev-dependencies]
+criterion = "0.3"
+quickcheck = "1.0.3"
+
+[[bench]]
+name = "bench"
+harness = false
+
